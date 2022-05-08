@@ -41,11 +41,15 @@ status_genset1 = "&entry.371318830=Stand+by+Auto"
 status_genset2 = "&entry.262897399=Stand+by+Auto"
 status_genset3 = "&entry.299357963=Stand+by+Auto"
 
-jenis_panel = "&entry.1734933449=LMVDP"
+jenis_panel = "&entry.1734933449.other_option_response=LMVDP+DAN+MDP&entry.1734933449=__other_option__"
+
+
+"""
 beban_r = "&entry.1623101554="
 beban_s = "&entry.1236883645="
 beban_t = "&entry.461319217="
 beban_n = "&entry.378859242="
+"""
 
 fire_alarm = "&entry.1408683710=Aktif"
 
@@ -218,11 +222,12 @@ os.system('clear')
 
 print('SEKARANG BEBAN YA BRE KAYA LU BEBAN KELUARGA\n\n')
     
+"""
 beban_r  += string(int_input('R nya brapa bre? '))
 beban_s += string(int_input('S nya brapa bre? '))
 beban_t += string(int_input('T nya brapa bre? '))
 beban_n += string(int_input('N nya brapa bre? '))
-
+"""
 print('\nKalo mau default langsung enter aja\n')
 cctvon = input('cctv on nya brpa? (default:327) ')
 cctvoff = input('cctv off nya brapa? (default:0) ')
@@ -391,7 +396,7 @@ kejadian = kejadian+kejadian1
 os.system('clear')
 
 link = 'https://docs.google.com/forms/d/e/1FAIpQLSfcPUk0OJIdPjrni3KmUdrn6c4atya0_uHvHM6yDY-lh_JFcg/viewform?usp=send_form?usp=pp_url'
-link+=nama_entry+tahun+bulan+jam_masuk+jam_keluar+menit_masuk+menit_keluar+tanggal+cabang+zona+shift_entry+trafo1+trafo2+trafo3+kva_pln+kva_pln_catatan+status_pln+status_trafo1+status_trafo2+status_trafo3+unit_trafo+jumlah_genset+status_genset1+status_genset2+status_genset3+genset1+genset2+genset3+jenis_panel+beban_r+beban_s+beban_t+beban_n+fire_alarm+pompa_jokie+pompa_dorong+pompa_sumur+area_cctv+jumlah_on+jumlah_off+jumlah_coldroom+suhu_coldroom1+suhu_coldroom2+suhu_coldroom3+preasure_coldroom1+preasure_coldroom2+preasure_coldroom3+status_coldroom1+status_coldroom2+status_coldroom3+area_kwh+total_kwh+area_air+total_air+pemeliharaan+perbaikan+permintaan+kejadian+catatan
+link+=nama_entry+tahun+bulan+jam_masuk+jam_keluar+menit_masuk+menit_keluar+tanggal+cabang+zona+shift_entry+trafo1+trafo2+trafo3+kva_pln+kva_pln_catatan+status_pln+status_trafo1+status_trafo2+status_trafo3+unit_trafo+jumlah_genset+status_genset1+status_genset2+status_genset3+genset1+genset2+genset3+jenis_panel+fire_alarm+pompa_jokie+pompa_dorong+pompa_sumur+area_cctv+jumlah_on+jumlah_off+jumlah_coldroom+suhu_coldroom1+suhu_coldroom2+suhu_coldroom3+preasure_coldroom1+preasure_coldroom2+preasure_coldroom3+status_coldroom1+status_coldroom2+status_coldroom3+area_kwh+total_kwh+area_air+total_air+pemeliharaan+perbaikan+permintaan+kejadian+catatan
 print(link)
 
 webbrowser.open_new(link)
