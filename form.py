@@ -169,7 +169,7 @@ suhu_coldroom2 = "&entry.665166214="
 preasure_coldroom2 = "&entry.2052590279="
 suhu_coldroom3 = "&entry.2010845976="
 preasure_coldroom3 = "&entry.1394288064="
-status_coldroom1 = "&entry..761107784="
+status_coldroom1 = "&entry.761107784="
 status_coldroom2 = "&entry.277523632="
 status_coldroom3 = "&entry.1088315514="
 
