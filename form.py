@@ -152,7 +152,7 @@ fire_alarm = "&entry.181359338=Aktif"
 
 
 pompa_jokie = "&entry.209873353=Stand+by+Auto"
-pompa_diesel = "&entry.926069726=Stand+by+Auto"
+pompa_diesel = "&entry.926069726=Nihil"
 electrical_fire_pump ="&entry.787116222=Stand+by+Auto"
 # pompa_dorong = "&entry.1960544484=Stand+by+Auto"
 pompa_sumur = "&entry.216921219=ON"
