@@ -183,7 +183,7 @@ pemeliharaan = "&entry.1099436377="
 perbaikan = "&entry.740829364="
 permintaan = "&entry.864780574="
 kejadian = "&entry.640345927="
-catatan = '&entry.1850401002=Operasional+Normal'
+catatan = '&entry.369035004=Operasional+Normal'
 
 
 
@@ -193,7 +193,7 @@ def int_input(prompt):
         try:
             number = int(input(prompt))
             return number
-        except ValueError as e:
+entry.369035004=Operasional+Normal        except ValueError as e:
             print("Yang anda masukan Bukan angka!")
             
 #funtion perubah int jadi str
@@ -520,7 +520,7 @@ kejadian = kejadian+kejadian1
 
 os.system('clear')
 
-link = 'https://docs.google.com/forms/d/e/1FAIpQLSfcPUk0OJIdPjrni3KmUdrn6c4atya0_uHvHM6yDY-lh_JFcg/viewform?usp=send_form?usp=pp_url'
+link = 'https://docs.google.com/forms/d/e//viewform?usp=send_form?usp=pp_url'
 link+=regional+nama_entry+tahun+bulan+jam_masuk+jam_keluar+menit_masuk+menit_keluar+tanggal+cabang+zona+shift_entry+trafo1+trafo2+trafo3+kva_pln1+kva_pln2+kva_pln3+kva_pln_catatan+status_pln+status_trafo1+status_trafo2+status_trafo3+unit_trafo+jumlah_genset+status_genset1+status_genset2+status_genset3+genset1+genset2+genset3+jenis_panel+beban_r+beban_s+beban_t+beban_n+fire_alarm+pompa_jokie+pompa_diesel+pompa_sumur+electrical_fire_pump+jumlah_pompa_sumur+area_cctv+jumlah_on+jumlah_off+jumlah_coldroom+suhu_coldroom1+suhu_coldroom2+suhu_coldroom3+preasure_coldroom1+preasure_coldroom2+preasure_coldroom3+status_coldroom1+status_coldroom2+status_coldroom3+area_kwh+total_kwh+area_air+total_air+pemeliharaan+perbaikan+permintaan+kejadian+catatan
 print(link)
 
