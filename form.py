@@ -203,7 +203,7 @@ def string(var):
             
             
 
-nama_pelapor = int_input('\n1.Nahrul        2.risal\n3.suarno        4.noval\n5.syauqi        6.tain\n7.fauzi\n\n\nsiapakah kamu?  ')
+nama_pelapor = int_input('\n1.Nahrul        2.risal\n3.suarno        4.Naufal\n5.syauqi        6.tain\n7.fauzi\n\n\nsiapakah kamu?  ')
 
 if nama_pelapor == 1:
     nama = ('Nahrul Hayat')
